@@ -1,0 +1,35 @@
+{
+  "name": "Koxixo",
+  "version": "1.0.0",
+  "description": "A web application with a login system and user management.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.3",
+    "@types/jest": "^26.0.15",
+    "@types/express": "^4.17.8",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.10"
+  },
+  "keywords": [
+    "web",
+    "application",
+    "login",
+    "user management"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
